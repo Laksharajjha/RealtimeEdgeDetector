@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edge Detection Viewer</title>
+    <style>
+        body { font-family: sans-serif; margin: 40px; background-color: #f0f0f0; }
+        h1 { color: #333; }
+        #frame {
+            display: block;
+            width: 640px;
+            height: 480px;
+            border: 2px solid #ccc;
+            background-color: #fff;
+        }
+        #stats { font-size: 1.2em; color: #555; }
+    </style>
+</head>
+<body>
+<h1>Static Frame Viewer</h1>
+<img id="frame" src="" alt="Processed Frame Will Appear Here" />
+<p id="stats">FPS: -- | Resolution: ----x----</p>
+
+<!-- This will load our compiled JavaScript file -->
+<script src="main.js"></script>
+</body>
+</html>
